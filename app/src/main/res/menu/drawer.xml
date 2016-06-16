@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!--新闻速递-->
+    <!--微信热文-->
+    <!--美图欣赏-->
+    <!--边听边看-->
+    <!--历史的今天-->
+    <!--关于-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_news"
+            android:icon="@drawable/ic_news"
+            android:title="@string/hot_news" />
+        <item
+            android:id="@+id/navigation_wechats"
+            android:icon="@drawable/ic_stars"
+            android:title="@string/wechat_news" />
+        <item
+            android:id="@+id/navigation_image"
+            android:icon="@drawable/ic_picture"
+            android:title="@string/hot_img" />
+        <item
+            android:id="@+id/navigation_music"
+            android:icon="@drawable/ic_disc"
+            android:title="@string/hot_music" />
+        <item
+            android:id="@+id/navigation_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/hot_history" />
+        <item
+            android:id="@+id/navigation_about"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/about_us" />
+    </group>
+</menu>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--新闻速递-->
+    <!--微信热文-->
+    <!--美图欣赏-->
+    <!--边听边看-->
+    <!--历史的今天-->
+    <!--关于-->
+    <array name="navigation_list">
+        <item>新闻速递</item>
+        <item>微信热文</item>
+        <item>美图欣赏</item>
+        <item>边听边看</item>
+        <item>历史的今天</item>
+        <item>关于</item>
+    </array>
+
+    <array name="news_category_list">
+        <item>头条</item>
+        <item>汽车</item>
+        <item>房产</item>
+        <item>科技</item>
+        <item>星座</item>
+        <item>旅游</item>
+        <item>时尚</item>
+        <item>娱乐</item>
+    </array>
+
+    <array name="images_category_list_id">
+        <item>美女</item>
+        <item>动漫</item>
+        <item>明星</item>
+        <item>汽车</item>
+        <item>摄影</item>
+        <item>美食</item>
+    </array>
+
+    <array name="images_category_list_name">
+        <item>美女</item>
+        <item>动漫</item>
+        <item>明星</item>
+        <item>汽车</item>
+        <item>摄影</item>
+        <item>美食</item>
+    </array>
+
+    <array name="wxnews_category_list_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </array>
+
+    <array name="wxnews_category_list_name">
+        <item>热点</item>
+        <item>推荐</item>
+        <item>段子手</item>
+        <item>养生堂</item>
+        <item>私房话</item>
+        <item>八卦精</item>
+        <item>爱生活</item>
+        <item>财经迷</item>
+        <item>汽车迷</item>
+        <item>科技咖</item>
+        <item>潮人帮</item>
+        <item>辣妈帮</item>
+        <item>点赞党</item>
+        <item>旅行家</item>
+        <item>职场人</item>
+        <item>美食家</item>
+        <item>古今通</item>
+        <item>学霸族</item>
+        <item>星座控</item>
+        <item>体育迷</item>
+    </array>
+
+    <array name="news_channel_id">
+        <item>5572a108b3cdc86cf39001cd</item>
+        <item>5572a108b3cdc86cf39001ce</item>
+        <item>5572a108b3cdc86cf39001cf</item>
+        <item>5572a108b3cdc86cf39001d0</item>
+        <item>5572a108b3cdc86cf39001d1</item>
+        <item>5572a108b3cdc86cf39001d2</item>
+        <item>5572a108b3cdc86cf39001d3</item>
+        <item>5572a108b3cdc86cf39001d4</item>
+        <item>5572a108b3cdc86cf39001d5</item>
+        <item>5572a108b3cdc86cf39001d6</item>
+        <item>5572a108b3cdc86cf39001d7</item>
+        <item>5572a108b3cdc86cf39001d8</item>
+        <item>5572a108b3cdc86cf39001d9</item>
+        <item>5572a109b3cdc86cf39001da</item>
+    </array>
+
+    <array name="news_channel_name">
+        <item>国内</item>
+        <item>国际</item>
+        <item>军事</item>
+        <item>财经</item>
+        <item>互联网</item>
+        <item>房产</item>
+        <item>汽车</item>
+        <item>体育</item>
+        <item>娱乐</item>
+        <item>游戏</item>
+        <item>教育</item>
+        <item>女人</item>
+        <item>科技</item>
+        <item>社会</item>
+    </array>
+
+    <array name="videos_category_list">
+        <item>热门</item>
+        <item>搞笑</item>
+        <item>动漫</item>
+        <item>综艺</item>
+    </array>
+
+    <array name="about_list">
+        <item>当前版本</item>
+        <item>关于作者</item>
+        <item>项目主页</item>
+        <item>项目介绍</item>
+        <item>开源项目说明</item>
+    </array>
+</resources>

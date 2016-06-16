@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 24
+    buildToolsVersion '24.0.0'
+    defaultConfig {
+        applicationId "com.haoyue.app.happyreader"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 100
+        versionName '1.1.0'
+    }
+
+    signingConfigs {
+        release {
+            keyAlias 'haoyue'
+            keyPassword 'www.haoyue.com'
+            storeFile file('./hy_keystore.jks')
+            storePassword 'www.haoyue.com'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile project(':library')
+}
